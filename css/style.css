@@ -133,7 +133,7 @@ a:focus {
     color: #b3b3d7;
 }
 
-
+@media(min-width: 768px){
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -143,14 +143,14 @@ a:focus {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+}
 
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgb(0,0,0);
-        background: #fff;
-        color: #100043;
-    }
-
+.navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgb(0,0,0);
+    background: #fff;
+    color: #100043;
+}
 
 .intro {
     display: table;
@@ -449,6 +449,8 @@ body {
     border-left: 5px solid transparent; 
     border-right: 5px solid transparent;
     border-top: 5px solid #b3b3d7;
+    position: absolute;
+    z-index: -30;
 }
 .progress{
   border-radius:0;
