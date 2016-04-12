@@ -21,6 +21,12 @@ function collapseNavbar() {
     }
 }
 
+/*function highlightNavbar(){
+    if($(".navbar").offset(".about") > 0){
+        $("#about").addClass("active");
+    }
+}*/
+
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
@@ -47,12 +53,23 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
 });  
 
-$( window ).scroll(function() {   
-  // if($( window ).scrollTop() > 10){   scroll down abit and get the action   
-  $(".progress-bar").each(function(){
-    each_bar_width = $(this).attr('aria-valuenow');
-    $(this).width(each_bar_width + '%');
-  });
+$(window).scroll(function() {   
+  if(isScrolledIntoView('#skills') === true){  
+    $(".progress-bar").each(function(){
+        each_bar_width = $(this).attr('aria-valuenow');
+        $(this).width(each_bar_width + '%');
+    });
+
        
- //  }  
+ }  
 });
+
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
