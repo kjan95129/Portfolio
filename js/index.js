@@ -53,6 +53,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
 });  
 
+// Scrolling for navbar active
 $(window).scroll(function() {   
   if(isScrolledIntoView('#skills') === true){  
     $(".progress-bar").each(function(){
