@@ -97,7 +97,11 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom a {
+.white {
+    color: #fff;
+}
+
+.black{
     color: #000;
 }
 
@@ -146,6 +150,7 @@ a:focus {
         padding: 0;
         border-bottom: 1px solid rgb(0,0,0);
         background: #fff;
+        color: #000;
     }
 
 
@@ -212,10 +217,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #000;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -225,7 +230,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000;
+    color: #fff;
     background: rgba(255,255,255,.1);
 }
 
@@ -329,17 +334,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #fff;
+    color: #fff;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     outline: 0;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
 }
 
 ul.banner-social-buttons {
@@ -416,11 +421,15 @@ body {
 
 #about{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* Skills */
-#skills{
+#skills, #contact{
     padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #000;
 }
 .tooltip{ 
   position:relative;
@@ -448,4 +457,14 @@ body {
    background: #A9A9A9; 
   -webkit-transition: width 1.5s ease-in-out;
   transition: width 1.5s ease-in-out;
+}
+
+/* else */
+.intro-body{
+    background-color: #000;
+    color: #fff;
+}
+
+.full-width{
+    width: 100%;
 }
