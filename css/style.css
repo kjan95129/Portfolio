@@ -474,6 +474,7 @@ body {
     border-radius: 10px;
     width: 300px;
     height: auto;
+    float: right;
 }
 
 .blockquote{
