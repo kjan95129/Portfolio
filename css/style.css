@@ -35,9 +35,6 @@ h2{
     font-size: 4em;
 }
 
-span{
-    font-family: "Montserrat";
-}
 
 p {
     margin: 0 0 20px;
@@ -486,4 +483,8 @@ body {
 
 .quote{
     font-size: 30px;
+}
+
+.spacing{
+    letter-spacing: 6px;
 }
