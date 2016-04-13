@@ -512,39 +512,45 @@ body {
     -moz-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
 
-    -webkit-animation-duration:2s;
-    -moz-animation-duration:2s;
-    animation-duration:2s;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
 }
 
 .fade-in.one{
-    -webkit-animation-delay: .5s;
-    -moz-animation-delay: .5s;
-    animation-delay: .5s;
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    animation-delay: .2s;
 }
 
 .fade-in.two{
-    -webkit-animation-delay: .8s;
-    -moz-animation-delay: .8s;
-    animation-delay: .8s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .fade-in.three{
-    -webkit-animation-delay: 1.1s;
-    -moz-animation-delay: 1.1s;
-    animation-delay: 1.1s;
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    animation-delay: 1.3s;
 }
 
 .fade-in.four{
-    -webkit-animation-delay: 1.5s;
-    -moz-animation-delay: 1.5s;
-    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
 }
 
 .fade-in.five{
-    -webkit-animation-delay: 2.5s;
-    -moz-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.0s;
+    -moz-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+}
+
+.fade-in.six{
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
 }
 
 .weird{
