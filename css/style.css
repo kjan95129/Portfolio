@@ -37,14 +37,14 @@ h2{
 
 
 p {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 20px;
+        margin: 0 0 10px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -473,7 +473,7 @@ body {
 
 .headshot{
     border-radius: 10px;
-    width: 300px;
+    width: 320px;
     height: auto;
     float: right;
 }
@@ -487,6 +487,7 @@ body {
 
 .quote{
     font-size: 30px;
+    line-height: 30px;
 }
 
 .spacing{
