@@ -588,3 +588,20 @@ body {
     opacity:1;
 }
 
+/* contact me */
+section#contact .form-group textarea.form-control {
+    height: 218px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
