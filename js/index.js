@@ -72,3 +72,6 @@ function isScrolledIntoView(elem) {
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
+
+// Overlay on Work
+
