@@ -659,7 +659,6 @@ span.text-content {
     display: inline;
   border: 1px solid rgba(255, 255, 255, 0.7);
   bottom: 1em;
-  content: '';
   left: 1em;
   opacity: 0;
   position: absolute;
