@@ -1,8 +1,8 @@
 <?php
 
-$EmailFrom = "chriscoyier@gmail.com";
-$EmailTo = "CHANGE-THIS@YOUR-DOMAIN.com";
-$Subject = "Nice & Simple Contact Form by CSS-Tricks";
+$EmailFrom = "kjan95129@gmail.com";
+$EmailTo = "kjan95129@gmail.com";
+$Subject = "FROM KJAN95129.GITHUB.IO";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
@@ -35,7 +35,7 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=mail/contactthanks.php\">";
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
