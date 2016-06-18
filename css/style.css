@@ -606,9 +606,9 @@ width:110px;
 
 .btn-success{
     border-radius: 10px;
-    border: #ff6666;
+    border: #00ace6;
     color: white;
-    background-color: #ff6666;
+    background-color: #00ace6;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     padding: 20px;
     font-size: 20px;
@@ -618,7 +618,7 @@ width:110px;
 .btn-success:focus{
     border: white;
     background-color: white;
-    color: #ff6666;
+    color: #00ace6;
 }
 
 /************************************************************** Modal overlay (work) ********************************************************************/
@@ -746,10 +746,10 @@ width:110px;
 }
 
 #contact-area input.submit-button {
-	width: 100px;
+    margin-top: 30px;
+	width: 120px;
+    background-color: darkgray;
     color: white;
-    border-radius: 10px;
-    margin-top: 20px;
 }
 
 label {
