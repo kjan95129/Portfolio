@@ -6,7 +6,7 @@
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
-    if ($(".navbar").offset().top > 50) {
+    if ($(".navbar").offset().top > 200) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $("a").addClass("black");
         $("a").removeClass("white");
@@ -56,12 +56,21 @@ $(function () {
 // my skills section
 $(window).scroll(function() {   
   if(isScrolledIntoView('#skills') === true){  
-    $(".progress-bar").each(function(){
-        each_bar_width = $(this).attr('aria-valuenow');
-        $(this).width(each_bar_width + '%');
-    });  
+    jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},1500);
+	});
  }  
 });
+
+/*jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});*/
 
 function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
