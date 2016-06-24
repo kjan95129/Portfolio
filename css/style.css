@@ -344,7 +344,8 @@ span.text-content span {
   vertical-align: middle;
 }
 
-ul.img-list li:hover span.text-content {
+ul.img-list li:hover span.text-content,
+ul.img-list li:focus span.text-content{
   opacity: 1;
 }
 
