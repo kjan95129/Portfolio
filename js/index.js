@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-document.addEventListener("touchstart", function(){}, true);
+document.addEventListener("touchstart", function(){}, true);    
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
@@ -33,7 +33,7 @@ $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+$(function poop() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
