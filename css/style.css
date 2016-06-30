@@ -528,7 +528,7 @@ width:110px;
 
 .headshot{
     border-radius: 10px;
-    width: 320px;
+    width: auto;
     height: auto;
     float: right;
 }
