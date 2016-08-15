@@ -18,6 +18,9 @@
     
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -109,32 +112,32 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center" data-aos="fade-up" data-aos-duration="600">
                     <h2>My Work</h2>
                     <h3>These are some of my projects &amp; work</h3>
                     <h3>Check 'em out.</h3>
-                    <div class="media"> <img class="media__image" src="img/grapelogo.png" alt="" />
+                    <div class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/grapelogo.png" alt="" />
                       <div class="media__body">
                         <h2>DO YOU LIKE GRAPES?</h2>
                         <p>Mobile web application designed to encourage users to track personal acts of kindness</p>
                           <a href="http://grapeapp.herokuapp.com" target="_blank" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media"> <img class="media__image" src="img/MASA.png" alt="" />
+                    <div class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" src="img/MASA.png" alt="" />
                       <div class="media__body">
                         <h2>MASA</h2>
                         <p>Created the website for the largest social-cultural organization on UCSD campus</p>
                           <a href="http://masa.ucsd.edu" target="_blank" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media"> <img class="media__image" src="img/karmonize.png" alt="" />
+                    <div class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/karmonize.png" alt="" />
                       <div class="media__body">
                         <h2>DO GOOD. GET GOOD KARMA.</h2>
                         <p>Web developer; A modern social barter system where trades are made with Karma Points.</p>
                           <a href="http://karmonize.org" target="_blank" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media"> <img class="media__image" id="brewngo" src="img/brewngo.png" alt="" />
+                    <div class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" id="brewngo" src="img/brewngo.png" alt="" />
                       <div class="media__body">
                         <h2>COFFEE &amp; TEA. ON THE GO.</h2>
                         <p>Web developer; innovative product for an automatic and portable coffee &amp; tea brewer</p>
@@ -153,13 +156,13 @@
 
     <!-- Skills Section -->
     <section id="skills" class="full-width container content-section">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="600">
               <h2 class="text-center">My skills</h2>
             <h3 style="text-align: center">A little bit more about my coding experience...</h3><br><br>
             <div class="container">
               <div class="row">
                 <div class="col-md-2 col-lg-2"></div>
-                 <div class="col-md-8 col-lg-8">
+                 <div class="col-md-8 col-lg-8" data-aos="fade-up" data-aos-duration="600">
 
             <!-- <div class="barWrapper">
              <span class="progressText"><B>HTML5</B></span>
@@ -299,15 +302,15 @@
 
     <!-- About Section -->
     <section id="about" class="about full-width container content-section">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="600">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="text-center">More about me</h2>
                 <hr class="small">
                 <div class="col-sm-5">
-                    <img class="headshot text-center" src="img/headshot.jpg">
+                    <img class="headshot text-center" src="img/headshot.jpg" data-aos="fade-up" data-aos-delay="500">
                 </div>
                 <div class="col-sm-1"></div>
-                <div class="col-sm-7">
+                <div class="col-sm-7" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <p><b>School</b>: University of California, San Diego</p>
                     <p><b>Major</b>: Cognitive Science w/ Specialization in Human-Computer Interaction</p>
                     <p><b>Minors</b>: Computer Science &amp; Business</p>
@@ -321,13 +324,13 @@
 
     <!-- Contact Section -->
     <section id="contact" class="full-width container content-section text-center">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="600">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Me</h2>
                 <hr class="small">
                 <p>CONTACT ME BELOW IF YOU WOULD LIKE TO HELP THIS POOR SOUL HAVE A FUTURE</p>
                 <!-- Change the width and height values to suit you best -->
-                <div id="contact-area">
+                <div id="contact-area" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
 
                     <form action="https://formspree.io/kjan@ucsd.edu" method="POST">
                         <label for="Name">Name:</label>
@@ -414,7 +417,12 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/index.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/aos.js"></script>
 
+    <script>
+      AOS.init();
+    </script>
+    
 </body>
 
 </html>
