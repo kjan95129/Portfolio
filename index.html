@@ -18,10 +18,7 @@
     
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-    
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -118,28 +115,28 @@
                      <hr class="small">
                     <h3>These are some of my projects &amp; work</h3>
                     <h3>Check 'em out.</h3>
-                    <div class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/grapelogo.png" alt="" />
+                    <div id="fader1" class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/grapelogo.png" alt="" />
                       <div class="media__body">
                         <h2>DO YOU LIKE GRAPES?</h2>
                         <p>Mobile web application designed to encourage users to track personal acts of kindness</p>
-                          <a href="http://grapeapp.herokuapp.com" target="_blank" class="btn btn-default">Check it out!</a>
+                          <a href="http://grapeapp.herokuapp.com" target="_blank" class="btn btn-default" data-toggle="modal" data-target="#modal-transparent">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" src="img/MASA.png" alt="" />
+                    <div id="fader2" class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" src="img/MASA.png" alt="" />
                       <div class="media__body">
                         <h2>MASA</h2>
                         <p>Created the website for the largest social-cultural organization on UCSD campus</p>
                           <a href="http://masa.ucsd.edu" target="_blank" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/karmonize.png" alt="" />
+                    <div id="fader3" class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/karmonize.png" alt="" />
                       <div class="media__body">
                         <h2>DO GOOD. GET GOOD KARMA.</h2>
                         <p>Web developer; A modern social barter system where trades are made with Karma Points.</p>
                           <a href="http://karmonize.org" target="_blank" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
-                    <div class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" id="brewngo" src="img/brewngo.png" alt="" />
+                    <div id="fader4" class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" id="brewngo" src="img/brewngo.png" alt="" />
                       <div class="media__body">
                         <h2>COFFEE &amp; TEA. ON THE GO.</h2>
                         <p>Web developer; innovative product for an automatic and portable coffee &amp; tea brewer</p>
@@ -382,6 +379,24 @@
         </div>
     </footer>
 
+    <!-- Modal transparent -->
+    <div class="modal modal-transparent fade" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -395,7 +410,6 @@
     <script src="js/index.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/aos.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script>
       AOS.init();

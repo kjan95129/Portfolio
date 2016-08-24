@@ -6,6 +6,17 @@
 
 document.addEventListener("touchstart", function(){}, true);    
 
+if ($(window).width() < 768) {
+    var element1 = document.getElementById("fader1"); 
+    element1.setAttribute("data-aos", "fade-up");
+    var element2 = document.getElementById("fader2"); 
+    element2.setAttribute("data-aos", "fade-up");
+    var element3 = document.getElementById("fader3"); 
+    element3.setAttribute("data-aos", "fade-up");
+    var element4 = document.getElementById("fader4"); 
+    element4.setAttribute("data-aos", "fade-up");
+}  
+
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 200) {
@@ -83,3 +94,21 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 
+
+$(".modal-transparent").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent");
+  }, 0);
+});
+$(".modal-transparent").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-transparent");
+});
+
+$(".modal-fullscreen").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+  }, 0);
+});
+$(".modal-fullscreen").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+});
