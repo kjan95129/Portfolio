@@ -22,9 +22,15 @@ h1
 
 h2
 {
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
+
+h3{
+    font-size: 24px;
+}
+
 h3,
 h4,
 h5,
@@ -35,14 +41,14 @@ h6
 }
 
 h2{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 
 p {
     margin: 0 0 10px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 @media(min-width:768px) {
@@ -421,6 +427,10 @@ span.text-content {
     padding-bottom: 100px;
     color: #fff;
     background-color: #100043;
+}
+
+#skills .container h2{
+    text-transform: none;
 }
 
 .skill_labels{
