@@ -449,7 +449,7 @@ span.text-content {
 
 .highlight{
     font-weight: bold;
-    color: #FF0000;
+    color: #E89E0C;
 }
 
 .pulse {
@@ -878,8 +878,13 @@ width:110px;
 #contact-area input.submit-button {
     margin-top: 30px;
 	width: 120px;
-    background-color: darkgray;
     color: white;
+}
+
+#contact-area input.submit-button:hover {
+    margin-top: 30px;
+	width: 120px;
+    color: black;
 }
 
 label {
@@ -902,8 +907,9 @@ label {
 
 /* .modal-transparent */
 
-.modal-transparent {
+.modal-transparent{
   background: transparent;
+    padding-top: 100px;
 }
 
 .modal-backdrop.modal-backdrop-transparent {
@@ -919,12 +925,11 @@ label {
     color: black;
 }
 
-
 .modal-fullscreen {
+    padding-top: 10%;
   background: transparent;
 }
 .modal-fullscreen .modal-content {
-  background: transparent;
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -933,7 +938,7 @@ label {
   background: #ffffff;
 }
 .modal-backdrop.modal-backdrop-fullscreen.in {
-  opacity: .97;
+  opacity: .80;
   filter: alpha(opacity=97);
 }
 

@@ -119,28 +119,28 @@
                       <div class="media__body">
                         <h2>DO YOU LIKE GRAPES?</h2>
                         <p>Mobile web application designed to encourage users to track personal acts of kindness</p>
-                          <a href="http://grapeapp.herokuapp.com" target="_blank" class="btn btn-default" data-toggle="modal" data-target="#modal-transparent">Check it out!</a>
+                          <a class="btn btn-default" data-toggle="modal" data-target=".modal1">Check it out!</a>
                       </div>
                     </div>
                     <div id="fader2" class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" src="img/MASA.png" alt="" />
                       <div class="media__body">
                         <h2>MASA</h2>
                         <p>Created the website for the largest social-cultural organization on UCSD campus</p>
-                          <a href="http://masa.ucsd.edu" target="_blank" class="btn btn-default">Check it out!</a>
+                          <a data-toggle="modal" data-target=".modal2" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
                     <div id="fader3" class="media" data-aos="fade-up-right" data-aos-duration="600"> <img class="media__image" src="img/karmonize.png" alt="" />
                       <div class="media__body">
                         <h2>DO GOOD. GET GOOD KARMA.</h2>
                         <p>Web developer; A modern social barter system where trades are made with Karma Points.</p>
-                          <a href="http://karmonize.org" target="_blank" class="btn btn-default">Check it out!</a>
+                          <a data-toggle="modal" data-target=".modal3" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
                     <div id="fader4" class="media" data-aos="fade-up-left" data-aos-duration="600"> <img class="media__image" id="brewngo" src="img/brewngo.png" alt="" />
                       <div class="media__body">
                         <h2>COFFEE &amp; TEA. ON THE GO.</h2>
                         <p>Web developer; innovative product for an automatic and portable coffee &amp; tea brewer</p>
-                          <a href="http://brewngo.com" target="_blank" class="btn btn-default">Check it out!</a>
+                          <a data-toggle="modal" data-target=".modal4" class="btn btn-default">Check it out!</a>
                       </div>
                     </div>
                     
@@ -319,7 +319,7 @@
                             <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
                         </div>
                         <div>
-                            <input type="submit" value="Send" class="submit-button" style="background-color: #D00CE8">
+                            <input type="submit" value="Send" class="btn btn-default submit-button">
                         </div>
                     </form>
 
@@ -380,15 +380,69 @@
     </footer>
 
     <!-- Modal transparent -->
-    <div class="modal modal-transparent fade" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal modal-fullscreen fade modal1" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h4 class="modal-title" id="myModalLabel">GRAPE</h4>
           </div>
           <div class="modal-body">
-            ...
+            Work in progress...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal transparent -->
+    <div class="modal modal-fullscreen fade modal2" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">MASA</h4>
+          </div>
+          <div class="modal-body">
+            Work in progress...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal transparent -->
+    <div class="modal modal-fullscreen fade modal3" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">KARMONIZE</h4>
+          </div>
+          <div class="modal-body">
+            Work in progress...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal transparent -->
+    <div class="modal modal-fullscreen fade modal4" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">BREWNGO</h4>
+          </div>
+          <div class="modal-body">
+            Work in progress...
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
