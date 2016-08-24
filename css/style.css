@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #100043;
     background-color: #fff;
 }
@@ -11,12 +11,8 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1
+{
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -24,6 +20,19 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2
+{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+}
+h3,
+h4,
+h5,
+h6 
+{
+    margin: 0 0 35px;
+    font-family: 'Raleway', sans-serif;
+}
 
 h2{
     font-size: 4em;
@@ -67,7 +76,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-family: 'Raleway', sans-serif;
     background-color: #100043;
     position:fixed;
 }
@@ -414,7 +423,112 @@ span.text-content {
     background-color: #100043;
 }
 
-.skillbar {
+.skill_labels{
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.centered{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.left{
+    text-align: left;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.pulse {
+    margin: 0 auto;
+      color: white;
+    font-size: 3em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+  }
+
+.pulse1{
+    -webkit-animation: pulse1 2s linear infinite;
+    -moz-animation: pulse1 2s linear infinite;
+    animation: pulse1 2s linear infinite;    
+}
+
+.pulse2{
+    -webkit-animation: pulse2 2.1s linear infinite;
+    -moz-animation: pulse2 2.1s linear infinite;
+    animation: pulse2 2.1s linear infinite;  
+    animation-delay: .15s;
+}
+
+.pulse3{
+    -webkit-animation: pulse2 2.2s linear infinite;
+    -moz-animation: pulse2 2.2s linear infinite;
+    animation: pulse2 2.2s linear infinite; 
+    animation-delay: .3s;
+}
+
+
+.pulse1, .pulse2, .pulse3{
+    width: 128px;
+    height: 128px;
+}
+
+@-moz-keyframes pulse1{
+    0% { -moz-transform: scale(1); opacity: 1; }
+    20% { -moz-transform: scale(.96); opacity: 1; }
+    40% { -moz-transform: scale(.92); opacity: 1; }
+    60% { -moz-transform: scale(.96); opacity: 1; }
+    100% { -moz-transform: scale(1); opacity: 1; }
+  }
+
+@-webkit-keyframes pulse1 {
+    0% { -webkit-transform: scale(1); opacity: 1; }
+    20% { -webkit-transform: scale(.96); opacity: 1; }
+    40% { -webkit-transform: scale(.92); opacity: 1; }
+    60% { -webkit-transform: scale(.96); opacity: 1; }
+    100% { -webkit-transform: scale(1); opacity: 1; }
+  }
+
+@-moz-keyframes pulse2{
+    0% { -moz-transform: scale(1); opacity: 1; }
+    20% { -moz-transform: scale(.96); opacity: 1; }
+    40% { -moz-transform: scale(.92); opacity: 1; }
+    60% { -moz-transform: scale(.96); opacity: 1; }
+    100% { -moz-transform: scale(1); opacity: 1; }
+  }
+
+@-webkit-keyframes pulse2{
+    0% { -webkit-transform: scale(1); opacity: 1; }
+    20% { -webkit-transform: scale(.96); opacity: 1; }
+    40% { -webkit-transform: scale(.92); opacity: 1; }
+    60% { -webkit-transform: scale(.96); opacity: 1; }
+    100% { -webkit-transform: scale(1); opacity: 1; }
+  }
+
+@-moz-keyframes pulse3{
+    0% { -moz-transform: scale(1); opacity: 1; }
+    20% { -moz-transform: scale(.96); opacity: 1; }
+    40% { -moz-transform: scale(.92); opacity: 1; }
+    60% { -moz-transform: scale(.96); opacity: 1; }
+    100% { -moz-transform: scale(1); opacity: 1; }
+  }
+
+@-webkit-keyframes pulse3 {
+    0% { -webkit-transform: scale(1); opacity: 1; }
+    20% { -webkit-transform: scale(.96); opacity: 1; }
+    40% { -webkit-transform: scale(.92); opacity: 1; }
+    60% { -webkit-transform: scale(.96); opacity: 1; }
+    100% { -webkit-transform: scale(1); opacity: 1; }
+  }
+
+/*.skillbar {
 	position:relative;
 	display:block;
 	margin-bottom:15px;
@@ -631,6 +745,7 @@ width:110px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
+    margin-top: 3px;
 }
 
 .media__image { display: block; }
