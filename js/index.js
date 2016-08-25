@@ -7,6 +7,7 @@
 document.addEventListener("touchstart", function(){}, true);    
 
 if ($(window).width() < 768) {
+    //fade animation types under portfolio
     var element1 = document.getElementById("fader1"); 
     element1.setAttribute("data-aos", "fade-up");
     var element2 = document.getElementById("fader2"); 
@@ -15,6 +16,17 @@ if ($(window).width() < 768) {
     element3.setAttribute("data-aos", "fade-up");
     var element4 = document.getElementById("fader4"); 
     element4.setAttribute("data-aos", "fade-up");
+    
+    //fade delays under skills
+    var skill1 = document.getElementById("languages"); 
+    skill1.setAttribute("data-aos-delay", "0");
+    var skill2 = document.getElementById("tools"); 
+    skill2.setAttribute("data-aos-delay", "0");
+    var skill3 = document.getElementById("experience"); 
+    skill3.setAttribute("data-aos-delay", "0");
+    var skill4 = document.getElementById("resume_button"); 
+    skill4.setAttribute("data-aos-delay", "0");
+    skill4.setAttribute("data-aos", "fade-up");
 }  
 
 // jQuery to collapse the navbar on scroll
