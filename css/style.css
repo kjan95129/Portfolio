@@ -167,12 +167,16 @@ a:focus {
 /************************************************************** Intro section *************************************************************************/
 #canvas-wrap {
     position:relative;
+    margin-right: auto;
+    margin-left: auto;
 } /* Make this a positioned parent */
 
 #overlay     { 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .intro {
