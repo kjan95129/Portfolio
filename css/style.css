@@ -1,15 +1,19 @@
+body.modal-open {
+    overflow: visible;
+}
+
 body {
     width: 100%;
     height: 100%;
     font-family: 'Raleway', sans-serif;
     color: #100043;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 html {
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
 }
 
 h1
@@ -193,6 +197,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    overflow-x: hidden;
 }
 
 .intro .intro-body {
