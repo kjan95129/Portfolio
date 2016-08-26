@@ -177,11 +177,12 @@ a:focus {
 } /* Make this a positioned parent */
 
 #overlay     { 
+    display: block;
     position: absolute;
     top: 50%;
+    transform: translateX(-50%);
     transform: translateY(-50%);
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .intro {
