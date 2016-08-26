@@ -94,13 +94,12 @@
     <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2" id="introintro">
-                        <h1 class="brand-heading"><span class="spacing">KE</span>VIN JAN</h1>
-                        <p class="intro-text">Web Developer</p>
-                        <p class="intro-text" style="font-size: 1em">B.S. Cognitive Science/Human Computer Interaction, UCSD</p><br><br><br>
-                    </div>
+            <div id="canvas-wrap">
+                <canvas id="pixie"></canvas>
+                <div class="col-lg-12" id="overlay">
+                    <h1 class="brand-heading"><span class="spacing">KE</span>VIN JAN</h1>
+                    <p class="intro-text">Web Developer</p>
+                    <p class="intro-text" style="font-size: 1em">B.S. Cognitive Science/Human Computer Interaction, UCSD</p>
                 </div>
             </div>
         </div>
@@ -693,7 +692,7 @@
     <script src="js/index.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/aos.js"></script>
-
+    <script src="js/jquery.nicescroll.js"></script>
     <script>
       AOS.init();
     </script>
