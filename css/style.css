@@ -165,18 +165,15 @@ a:focus {
 }
 
 /************************************************************** Intro section *************************************************************************/
-#introintro{
-    z-index: 1000;
-    margin-top: -40%;
-}
+#canvas-wrap {
+    position:relative;
+} /* Make this a positioned parent */
 
-@media(max-width: 768px){
-    #introintro{
-        z-index: 1000;
-        margin-top: -30em;
-    }
+#overlay     { 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 
 .intro {
     display: table;
