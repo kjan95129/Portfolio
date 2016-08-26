@@ -165,6 +165,18 @@ a:focus {
 }
 
 /************************************************************** Intro section *************************************************************************/
+#introintro{
+    z-index: 1000;
+    margin-top: -40em;
+}
+
+@media(max-width: 768px){
+    #introintro{
+        z-index: 1000;
+        margin-top: -30em;
+    }
+}
+
 
 .intro {
     display: table;
@@ -1997,3 +2009,4 @@ label {
             color: #000000;
             font-size: 11pt;
         }
+
