@@ -137,9 +137,9 @@ var WIDTH = window.innerWidth,
     pixies = new Array();
 
 if ($(window).width() < 769){
-    MAX_PARTICLES = 200
+    MAX_PARTICLES = 40
 }else{
-    MAX_PARTICLES = 600
+    MAX_PARTICLES = 200
 }
 
 function setDimensions(e) {
