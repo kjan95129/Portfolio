@@ -984,6 +984,19 @@ label {
     margin-left: auto;
     width: 90%;
 }
+
+.modal-fullscreen .modal-content p,
+.modal-fullscreen .modal-content ul{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.modal-fullscreen .modal-content table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px;
