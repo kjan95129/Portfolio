@@ -53,7 +53,7 @@ h2{
 p {
     margin: 0 0 10px;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.4;
 }
 
 @media(min-width:768px) {
@@ -452,6 +452,12 @@ span.text-content {
     padding-bottom: 100px;
 }
 
+
+@media(max-width:768px) {
+    .quoter{
+        padding-top: 25em;
+    }
+}
 /************************************************************** Skills *************************************************************************/
 #skills, #contact{
     padding-top: 100px;
@@ -985,11 +991,13 @@ label {
     width: 90%;
 }
 
-.modal-fullscreen .modal-content p,
-.modal-fullscreen .modal-content ul{
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
+@media (min-width: 768px){
+    .modal-fullscreen .modal-content p,
+    .modal-fullscreen .modal-content ul{
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
 }
 
 .modal-fullscreen .modal-content table{
@@ -1919,6 +1927,13 @@ label {
             border-spacing: 0;
             border-collapse: collapse;
             margin-right: auto
+        }
+
+        @media (max-width: 768px){
+            td, th {
+                white-space: normal; /* Only needed when it's set differntly somewhere else */
+                word-break: break-word;
+            }
         }
         
         .c6 {
