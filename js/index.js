@@ -59,9 +59,6 @@ function collapseNavbar() {
     }
 }*/
 
-$(window).scroll(collapseNavbar);
-$(document).ready(collapseNavbar);
-
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function poop() {
     $('a.page-scroll').bind('click', function(event) {
@@ -72,6 +69,9 @@ $(function poop() {
         event.preventDefault();
     });
 });
+
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
