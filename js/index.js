@@ -135,7 +135,7 @@ var WIDTH = window.innerWidth,
     canvas = document.querySelector('#pixie'),
     context = canvas.getContext('2d'),
     gradient = null,
-    pixies = new Array();
+    pixies = [];
 
 if ($(window).width() < 769){
     MAX_PARTICLES = 40
@@ -169,11 +169,11 @@ function Circle() {
         this.stop = Math.random()*.2+.4;
         this.settings.xdrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
         this.settings.ydrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
-    }
+    };
 
     this.fade = function() {
         this.rt += this.settings.rt;
-    }
+    };
 
     this.draw = function() {
         if(this.settings.blink && (this.rt <= 0 || this.rt >= this.hl)) {
@@ -194,16 +194,16 @@ function Circle() {
         gradient.addColorStop(1.0, 'rgba(77,101,181,0)');
         context.fillStyle = gradient;
         context.fill();
-    }
+    };
 
     this.move = function() {
         this.x += (this.rt/this.hl)*this.dx;
         this.y += (this.rt/this.hl)*this.dy;
         if(this.x > WIDTH || this.x < 0) this.dx *= -1;
         if(this.y > HEIGHT || this.y < 0) this.dy *= -1;
-    }
+    };
 
-    this.getX = function() { return this.x; }
+    this.getX = function() { return this.x; };
     this.getY = function() { return this.y; }
 }
 
