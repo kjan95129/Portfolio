@@ -121,7 +121,8 @@ hr{
     transition: all .1s ease-in-out;
 }
 
-a:hover{
+a:hover,
+a:active{
     text-decoration: none;
 }
 
@@ -218,7 +219,8 @@ a:hover{
 }
 
 .btn-default:hover,
-.btn-default:focus {
+.btn-default:focus,
+.btn-default:active {
     outline: 0;
     color: #fff;
     transform: scale(1.1);
@@ -272,17 +274,20 @@ a:hover{
     color: #C399D1;
 }
 
-.grape .home-nav:hover{
+.grape .home-nav:hover,
+.grape .home-have:active{
     color: #C399D1;
     border-color: #C399D1;
 }
 
-.grape .banner-title:hover{
+.grape .banner-title:hover,
+.grape .banner-title:active{
     color: #C399D1 !important;
     transform: scale(1.2);
 }
 
 .grape .btn-default:hover,
+.grape .btn-default:active,
 .grape .btn-default:focus{
     border: 1px solid #C399D1;
     background-color: #C399D1;

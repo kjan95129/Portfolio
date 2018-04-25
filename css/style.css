@@ -161,7 +161,10 @@ a, a:hover, a:active, a:visited, a:focus {
     transform: translateY(-10px);
 }
 
-.topBottomBordersOut a:hover:before, div.topBottomBordersOut a:hover:after
+.topBottomBordersOut a:hover:before, 
+.topBottomBordersOut a:active:before,
+.topBottomBordersOut a:hover:after,
+.topBottomBordersOut a:active:after
 {
     opacity: 1;
     transform: translateY(0px);
@@ -225,7 +228,10 @@ a, a:hover, a:active, a:visited, a:focus {
     color: white;
 }
 
-.media__body:hover { opacity: 1; }
+.media__body:hover,
+.media__body:active { 
+    opacity: 1;
+}
 
 .media__body:after,
 .media__body:before {
@@ -259,7 +265,9 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .media__body:hover:after,
-.media__body:hover:before {
+.media__body:hover:before,
+.media__body:active:before,
+.media__body:active:after {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -302,7 +310,8 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .btn-default:hover,
-.btn-default:focus {
+.btn-default:focus,
+.btn-default:active {
     border: 1px solid #4fb0ff;
     outline: 0;
     color: #fff;
