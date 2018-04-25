@@ -1,0 +1,258 @@
+/*************************** 'GLOBAL' CSS *********************************/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway|Metrophobic');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Metrophobic', sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+header{
+    height: 30%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    font-family: 'Metrophobic', sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1,
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+p {
+    color: #777777;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+a {
+    color: #777777;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 21px;
+}
+
+hr{
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+@media(max-width: 767px){
+    h1{
+        font-size: 44px;
+        word-wrap: break-word;
+    }
+
+    .content h1{
+        margin-bottom: 0 !important;
+    }
+
+    h2{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .intro-body{
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 767px){
+
+    .home-nav{
+        font-size: 20px;
+    }
+}
+
+.home-nav{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px white solid;
+    padding: 0.5em 0.6em;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
+/* Home navigation */
+.home-nav a{
+    color: white;
+}
+
+.home-nav:hover{
+    transform: scale(1.1);
+}
+
+/* Banner img and title */
+.banner-container{
+    margin-bottom: 100px;
+}
+
+.banner-title{
+    text-align: center;
+    margin: -50px 0 15px 0;
+    color: black !important;
+}
+
+.banner-img{
+    height: 100%;
+}
+
+.content h1{
+    margin-bottom: -15px;
+}
+
+.content h3{
+    color: black;
+}
+
+.content-block{
+    padding: 0 27%;
+    margin: 6% 0;
+}
+
+@media(max-width: 768px){
+    .content-block{
+        padding: 0 10%;
+        margin: 20% 0;
+    }
+}
+
+.image-pane{
+    text-align: center;
+    width: 100%; 
+    padding: 5% 10%;
+    margin-bottom: 6%;
+}
+
+.image-pane img{
+    height: 300px;
+    margin: 0 15px;
+    width: auto;
+}
+
+@media(max-width: 768px){
+    .image-pane img{
+        width: 80%;
+        height: auto;
+        margin: 8% 0;
+    }
+}
+
+.no-background{
+    margin-top: -100px;
+    margin-bottom: 0;
+    background-color: white !important;
+}
+
+.middle-text{
+    margin-top: 0px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/******************************** ANIMATION STUFF *****************************/
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+ @keyframes fadeInUp {
+    0% {
+       opacity: 0;
+       transform: translateY(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+/****************************** DIFF BANNERS FOR EACH PAGE ****************************/
+
+.grape .banner-img{
+    background-color: #C399D1;
+}
+
+.grape h1{
+    color: #C399D1;
+}
+
+.grape .image-pane{
+    background-color: #a7d199;
+}
+
