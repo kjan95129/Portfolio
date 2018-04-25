@@ -46,14 +46,6 @@ p {
     line-height: 1.5;
 }
 
-a {
-    color: #777777;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    font-size: 21px;
-}
-
 hr{
     border-top: 3px solid rgba(0, 0, 0, 0.1);
 }
@@ -106,7 +98,6 @@ hr{
     transition: all .1s ease-in-out;
 }
 
-
 /* Home navigation */
 .home-nav a{
     color: white;
@@ -125,6 +116,9 @@ hr{
     margin-bottom: 20px;
     text-align: center;
     color: black !important;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 a:hover{
@@ -208,6 +202,28 @@ a:hover{
 	height: 100%;
 }
 
+/***************************** BUTTON STYLES ********************************/
+.btn {
+    border-radius: 0;
+    font-family: "Metrophobic", sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.btn-default {
+    color: black;
+    border: 1px solid #777;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    outline: 0;
+    color: #fff;
+    transform: scale(1.1);
+}
+
 /******************************** ANIMATION STUFF *****************************/
 .animated {
     background-repeat: no-repeat;
@@ -263,8 +279,11 @@ a:hover{
 
 .grape .banner-title:hover{
     color: #C399D1 !important;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
     transform: scale(1.2);
+}
+
+.grape .btn-default:hover,
+.grape .btn-default:focus{
+    border: 1px solid #C399D1;
+    background-color: #C399D1;
 }
