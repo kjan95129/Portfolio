@@ -1,13 +1,3 @@
-function Reload() {
-    try {
-        var headElement = document.getElementsByTagName("head")[0];
-        if (headElement && headElement.innerHTML){
-            headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
-        }    
-    }
-    catch (e) {}
-}
-
 $(document).ready(function(){
     /*! Fades in whole page on load */
     $('body').css('display', 'none');
@@ -25,6 +15,16 @@ $('a').click(function(e) {
 
 function newpage() {
     window.location = newLocation;
+}
+
+function Reload() {
+    try {
+        var headElement = document.getElementsByTagName("head")[0];
+        if (headElement && headElement.innerHTML){
+            headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
+        }    
+    }
+    catch (e) {}
 }
 
 $(document).scroll(function(){
