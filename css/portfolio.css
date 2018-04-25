@@ -15,10 +15,6 @@ body {
     background-color: #fff;
 }
 
-header{
-    height: 30%;
-}
-
 h1,
 h2,
 h3,
@@ -64,7 +60,7 @@ hr{
 
 @media(max-width: 767px){
     h1{
-        font-size: 44px;
+        font-size: 42px;
         word-wrap: break-word;
     }
 
@@ -95,14 +91,15 @@ hr{
 }
 
 .home-nav{
+    z-index: 999;
     position: fixed;
     top: 5%;
     left: 5%;
     background-color: transparent;
-    color: white;
+    color: black;
     display: inline-block;
     border-radius: 50%;
-    border: 5px white solid;
+    border: 5px black solid;
     padding: 0.5em 0.6em;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -121,17 +118,27 @@ hr{
 
 /* Banner img and title */
 .banner-container{
-    margin-bottom: 100px;
+    margin: 10% 0;
 }
 
 .banner-title{
+    margin-bottom: 20px;
     text-align: center;
-    margin: -50px 0 15px 0;
     color: black !important;
 }
 
-.banner-img{
-    height: 100%;
+a:hover{
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+    .banner-container{
+        margin: 30% 0;
+    }
+
+    .banner-title{
+        margin-bottom: 5px;
+    }
 }
 
 .content h1{
@@ -159,6 +166,7 @@ hr{
     width: 100%; 
     padding: 5% 10%;
     margin-bottom: 6%;
+    background-color: #eeeeee;
 }
 
 .image-pane img{
@@ -181,9 +189,9 @@ hr{
     background-color: white !important;
 }
 
-.middle-text{
+/* .middle-text{
     margin-top: 0px;
-}
+}  */
 
 .videoWrapper {
 	position: relative;
@@ -244,15 +252,19 @@ hr{
 
 /****************************** DIFF BANNERS FOR EACH PAGE ****************************/
 
-.grape .banner-img{
-    background-color: #C399D1;
-}
-
 .grape h1{
     color: #C399D1;
 }
 
-.grape .image-pane{
-    background-color: #a7d199;
+.grape .home-nav:hover{
+    color: #C399D1;
+    border-color: #C399D1;
 }
 
+.grape .banner-title:hover{
+    color: #C399D1 !important;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}

@@ -87,8 +87,14 @@ hr{
     display: table;
     width: 100%;
     height: 100%;
-    padding-top: 20%;
+    padding-top: 15%;
     color: #000;
+}
+
+@media(max-width: 768px){
+    .intro-name{
+        padding-bottom: 10%;
+    }
 }
 
 .intro-name{
@@ -372,12 +378,4 @@ footer p {
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-}
-
-.grape .banner-img{
-    background-color: #C399D1;
-}
-
-.banner-img{
-    height: 30%;
 }
