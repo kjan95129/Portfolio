@@ -1,3 +1,32 @@
+function Reload() {
+    try {
+        var headElement = document.getElementsByTagName("head")[0];
+        if (headElement && headElement.innerHTML){
+            headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
+        }    
+    }
+    catch (e) {}
+}
+
+$(document).ready(function(){
+    /*! Fades in whole page on load */
+    $('body').css('display', 'none');
+    $('body').fadeIn(400);
+    load();
+}); 
+
+
+/*! Fades out the whole page when clicking links */
+$('a').click(function(e) {
+    e.preventDefault();
+    newLocation = this.href;
+    $('body').fadeOut(newpage);
+});
+
+function newpage() {
+    window.location = newLocation;
+}
+
 $(document).scroll(function(){
     const off = $(document).scrollTop();
 
@@ -14,6 +43,7 @@ $(document).scroll(function(){
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js-grape', 'static/banners/particlesjs-config-grape.json', function() {
+function load(){
+    particlesJS.load('particles-js-grape', 'static/banners/particlesjs-config-grape.json', function() {
     console.log('callback - particles.js config loaded');
-});
+})};
