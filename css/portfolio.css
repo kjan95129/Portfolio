@@ -114,6 +114,7 @@ hr{
 }
 
 .banner-title{
+    text-decoration: none;
     margin-bottom: 20px;
     text-align: center;
     color: black !important;
