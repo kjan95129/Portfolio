@@ -110,6 +110,7 @@ hr{
 /* Banner img and title */
 .banner-container{
     margin: 10% 0;
+    padding: 0 27%;
 }
 
 .banner-title{
@@ -129,6 +130,7 @@ a:active{
 @media(max-width: 768px){
     .banner-container{
         margin: 30% 0;
+        padding: 0 10%;
     }
 
     .banner-title{
@@ -190,7 +192,7 @@ a:active{
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%; 
 	padding-top: 25px;
 	height: 0;
 }
@@ -270,6 +272,7 @@ a:active{
 
 /****************************** DIFF BANNERS FOR EACH PAGE ****************************/
 
+/* GRAPE */
 .grape h1{
     color: #C399D1;
 }
@@ -291,4 +294,28 @@ a:active{
 .grape .btn-default:focus{
     border: 1px solid #C399D1;
     background-color: #C399D1;
+}
+
+/* BREWNGO */
+.brewngo h1{
+    color: #00FF90;
+}
+
+.brewngo .home-nav:hover,
+.brewngo .home-have:active{
+    color: #00FF90;
+    border-color: #00FF90;
+}
+
+.brewngo .banner-title:hover,
+.brewngo .banner-title:active{
+    color: #00FF90 !important;
+    transform: scale(1.2);
+}
+
+.brewngo .btn-default:hover,
+.brewngo .btn-default:active,
+.brewngo .btn-default:focus{
+    border: 1px solid #00FF90;
+    background-color: #00FF90;
 }
