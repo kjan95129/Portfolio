@@ -131,7 +131,7 @@ a {
     color: black;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
+a, a:hover, a:active, a:visited, a:focus, a:link {
     text-decoration:none;
     color: black;
 }

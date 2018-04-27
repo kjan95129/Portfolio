@@ -128,7 +128,9 @@ hr{
 }
 
 a:hover,
-a:active{
+a:active,
+a:visited,
+a:link{
     text-decoration: none;
 }
 
