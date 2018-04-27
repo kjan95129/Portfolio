@@ -113,6 +113,10 @@ hr{
     padding: 0 27%;
 }
 
+.banner-container span{
+    margin-left: 7px;
+}
+
 .banner-title{
     text-decoration: none;
     margin-bottom: 20px;
