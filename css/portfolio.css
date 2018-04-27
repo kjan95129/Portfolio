@@ -274,6 +274,10 @@ a:active{
 /****************************** DIFF BANNERS FOR EACH PAGE ****************************/
 
 /* GRAPE */
+.grape{
+    color: #C399D1;
+}
+
 .grape h1{
     color: #C399D1;
 }
@@ -298,6 +302,10 @@ a:active{
 }
 
 /* BREWNGO */
+.brewngo{
+    color: #00ff90;
+}
+
 .brewngo h1{
     color: #00FF90;
 }
