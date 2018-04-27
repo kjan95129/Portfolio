@@ -1,4 +1,5 @@
 $('body').bind('touchstart', function() {});
+window.onunload = function(){}; /* For back button press */
 
 $(document).ready(function(){
     /*! Fades in whole page on load */
@@ -16,14 +17,4 @@ $('.internal').click(function(e) {
 
 function newpage() {
     window.location = newLocation;
-}
-
-function Reload() {
-    try {
-        var headElement = document.getElementsByTagName("head")[0];
-        if (headElement && headElement.innerHTML){
-            headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
-        }    
-    }
-    catch (e) {}
 }
