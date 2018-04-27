@@ -1,12 +1,18 @@
 $('body').bind('touchstart', function() {});
 window.onunload = function(){}; /* For back button press */
 
-$(document).ready(function(){
-    /*! Fades in whole page on load */
-    $('body').css('display', 'none');
-    $('body').fadeIn(400);
-}); 
+// $(document).ready(function(){
+//     /*! Fades in whole page on load */
+//     $('body').css('display', 'none');
+//     $('body').fadeIn(400);
+// }); 
 
+window.onpopstate = function() { 
+    window.onpopstate = function() {
+        $('body').css('display', 'none');
+        $('body').fadeIn(400);
+    };
+};
 
 /*! Fades out the whole page when clicking links */
 $('.internal').click(function(e) {
