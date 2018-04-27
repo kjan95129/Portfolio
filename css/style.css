@@ -105,6 +105,10 @@ hr{
     width: 550px;
 }
 
+.intro-body span{
+    margin-left: 6px;
+}
+
 @media(max-width: 767px){
     .navigation{
         display: grid;
