@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kevin Jan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+
+    <!-- google analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-73963331-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body class="violet">
+    <header>
+        <a class="internal" href="index.html">
+            <h3 class="home-nav">
+                <i class="fas fa-angle-double-left"></i>
+            </h3>
+        </a>
+    </header>
+
+    <section class="banner-container animated fadeInDown text-center">
+        <h1 class="banner-title">
+            <span class="violet">-</span>violet
+            <span class="violet">-</span>
+        </h1>
+        <p>Mobile web application concept for a peer-to-peer valet service.</p>
+        <p>Product Designer. Winter 2017.</p>
+    </section>
+
+    <section class="content animated fadeInUp">
+        <div class="content-block">
+            <h1>Initial Problem Space</h1>
+            <h3>Electric Vehicle chargers are not easily accessible.</h3>
+            <p>With the introduction of the Tesla 3, Ev's are expected to go mainstream by 2030. By this year, electric vehicles
+                are expected to make up 40% of total cars sold. However, electric vehicle chargers are extremely hard to
+                find while traveling in more rural areas, making driving an electric vehicle impractical.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h1>How might we...</h1>
+            <h3>Initial questions to potentially solving consumers' problem</h3>
+            <ul>
+                <li>
+                    <p>How might we help EV owners residing in less urbanized areas get easier access to charging stations?</p>
+                </li>
+                <li>
+                    <p>How might we help EV owners spend their time while waiting for their cars to charge?</p>
+                </li>
+                <li>
+                    <p>How might we make the charging process faster?</p>
+                </li>
+                <li>
+                    <p>How might we have the user pay for renting out their unused personal chargers?</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h1>Storyboards</h1>
+            <h3>Potential uses cases for EV problems</h3>
+            <p>Putting ourselves in the shoes of EV owners, our team came up with a couple of scenarios that EV owners would
+                run into. I was tasked with creating one storyboard, as well a google form to survey individuals on /r/electricvehicles,
+                as well as a couple of public facebook EV advocate groups. Here are a couple of the storyboards our team
+                came up with.
+            </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/storyboard_1.jpg" />
+            <img src="static/violet/storyboard_2.jpg" />
+            <img src="static/violet/storyboard_3.jpg" />
+        </div>
+
+        <div class="content-block">
+            <p>The responses to some storyboards weren't great. Here were some of my favorites:</p>
+            <br/>
+
+            <p class="text-center">
+                <em>"Ridiculous. Call an Uber when you F-up."</em>
+            </p>
+            <br/>
+
+            <p class="text-center">
+                <em>"Needs a serious amount of trust (e.g. rating system) for me to dare loan my car to a random stranger."</em>
+            </p>
+            <br/>
+
+            <p class="text-center">
+                <em>"Elong will need to mow several lawns and perform unspeakable sexual favors along the way to rack up enough
+                    3 hour charges to make it to SF. He intended to spend the weekend with his parents but it took him until
+                    Sunday morning to get there and he's going to miss work Monday morning because he cannot get back to
+                    LA in time unless he changes cars."
+                </em>
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h1>Dead-ends</h1>
+            <h3>EV's won't really work. Lots of problems.</h3>
+            <p>After a total of 42 responses on our google survey, we realized that a lot of potential solutions to the problems
+                dealing with EV's just aren't very feasible. The main dead-ends we ran into were:
+            </p>
+
+            <ul>
+                <li>
+                    <p>People don't want to car swap</p>
+                </li>
+                <li>
+                    <p>EV market is small, scalability is the real issue</p>
+                </li>
+                <li>
+                    <p>Many big companies could easily implement our proposed solutions if EV-conscious</p>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="content-block">
+            <h1>Proposed Pivot</h1>
+            <h3>A peer-to-peer valet service</h3>
+            <p>We then turned back to brainstorming within the vehicle industry, and came to the idea of parking, specifically
+                on campus. Parking is always a huge hassle at my alma-mater UCSD, but we wanted to stray away from the typical
+                parking app. Instead, our team came up with an idea of a peer-to-peer valet service, similar to that of Uber.
+                People could pay others to get their car parked, and other people could earn money parking peoples' cars.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h1>How it works</h1>
+            <h3>How does it work for drivers?</h3>
+            <p>Need your car parked? When you’re having trouble finding a parking spot, Violet helps you call a valet to park
+                your car. You can schedule a valet ahead of time, or right when you find yourself lost in a parking lot.
+                Our valets will drive your car to a legal, safe and accessible spot so that you don’t have to worry about
+                parking. You will have the option to either provide your valet with a spare key which the valet will store
+                somewhere in the car after their service, or we can provide you with a secure lock box with GPS tracking
+                that you can unlock using the app or a unique PIN code. Valets will store your keys in this box for you or
+                any other valets to pick up later. Still unsure? Violet provides up to $25,000 in insurance for any damages
+                done by our valets. Valets will also be rated by other users and you can where your valet is going at any
+                time.
+            </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/driver_1.png" />
+            <img src="static/violet/driver_2.png" />
+            <img src="static/violet/driver_3.png" />
+        </div>
+
+        <div class="content-block">
+            <h3>How does it work for valets?</h3>
+            <p>Have time on your hands and want to make extra cash? Violet can help you find drivers willing to pay you to find
+                them a parking spot. The driver will meet up with you, and all you have to do is park their car for them.
+                We’ll automatically add the money to your account. If you run into a problem with their car, don't worry.
+                Violet will insure the customer's car, so your problems are our problems. Note: Valets will have to go through
+                a background check to ensure they will be a good fit with us. </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/valet_1.png" />
+            <img src="static/violet/valet_2.png" />
+            <img src="static/violet/valet_3.png" />
+        </div>
+
+        <div class="content-block">
+            <h1>Competitive Analysis</h1>
+            <h3>Does this already exist?</h3>
+            <p>Diving headfirst into the idea, we decided to compare the idea to some existing companies and refined our proposed
+                business model to separate our idea from the rest of the pack.
+            </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/competition_1.png" />
+        </div>
+
+        <div class="content-block">
+            <p>As shown above, there are a few limitations that some of our competitors had to their product, and it was our
+                full intention to alleviate these detriments. We could provide valet services anytime and anywhere.</p>
+        </div>
+
+        <div class="content-block">
+            <h1>Branding Probes</h1>
+            <h3>Potential brands and color schemes of our concept</h3>
+            <p>We decided to conduct some A/B testing with two different brand concepts we refined. Along with this, we used
+                a free $50 coupon on google adsense to see which brand would result in the most clickthroughs.
+            </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/branding_1.png" />
+            <img src="static/violet/branding_2.png" />
+            <img src="static/violet/landing_1.png" />
+            <img src="static/violet/landing_2.png" />
+        </div>
+
+        <div class="content-block">
+            <p>We used a service called unbouncepages to launch our A/B websites, as well as keep track of our google adsense.
+                It's a pretty cool service, so I'd encourage anyone to check it out! After allowing ads to run for a week,
+                we were ready to see the results. </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/adresults_1.png" />
+            <img src="static/violet/adresults_2.png" />
+        </div>
+
+        <div class="content-block">
+            <p>Although Brand B had a higher conversion rate at 7.84%, the majority of the clicks were from searches containing
+                the word "drive", and this was a result of most people searching for the term "google drive". Brand A had
+                a lower conversion rate, but the clickthrough keywords were much more along the lines of what we were targeting,
+                with "valet" being a highly searched word. We also got some actual signups through this landing page!</p>
+        </div>
+
+        <div class="content-block">
+            <h1>Service enactments</h1>
+            <h3>Trial runs of how the app would potentially work</h3>
+            <p>We conducted a couple of service enactments using a fake mockup of the app, and these were some of our results
+            </p>
+        </div>
+
+        <div class="image-pane">
+            <img src="static/violet/enactments_1.png" />
+        </div>
+
+        <div class="content-block">
+            <h1>The Final Product</h1>
+            <h3>A small video skit demonstrating our product!</h3>
+        </div>
+        <div class="image-pane no-background">
+            <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jSKom5hG8i4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+</body>

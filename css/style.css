@@ -303,6 +303,7 @@ a, a:hover, a:active, a:visited, a:focus, a:link {
     border-radius: 0;
     font-family: "Metrophobic", sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    width: 150px;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;

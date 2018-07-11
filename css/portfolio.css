@@ -110,7 +110,7 @@ hr{
 /* Banner img and title */
 .banner-container{
     margin: 10% 0;
-    padding: 0 27%;
+    padding: 0 30%;
 }
 
 .banner-container span{
@@ -333,4 +333,32 @@ a:link{
 .brewngo .btn-default:focus{
     border: 1px solid #00FF90;
     background-color: #00FF90;
+}
+
+/* VIOLET */
+.violet{
+    color: #70008D;
+}
+
+.violet h1{
+    color: #70008D;
+}
+
+.violet .home-nav:hover,
+.violet .home-have:active{
+    color: #70008D;
+    border-color: #70008D;
+}
+
+.violet .banner-title:hover,
+.violet .banner-title:active{
+    color: #70008D !important;
+    transform: scale(1.2);
+}
+
+.violet .btn-default:hover,
+.violet .btn-default:active,
+.violet .btn-default:focus{
+    border: 1px solid #70008D;
+    background-color: #70008D;
 }
