@@ -9,10 +9,9 @@ function Header() {
           <span className='blue'>-</span>kevin jan
           <span className='blue'>-</span>
         </h1>
-        <p className='animated fadeInUp'>Hi! Glad you found your way here.
+        <p className='animated fadeInUp'>Hi! Happy you're here. A little about me...
           <br/>
-          <br/> UCSD Human-Computer Interaction graduate looking for full-time opportunities in the realm of UX/UI Research/Design
-          &#38; Front-end Development.</p>
+          <br/> Currently a full stack developer @ Cisco Systems, working with ReactJS, JavaScript, and Python. </p>
         <div className='navigation topBottomBordersOut animated fadeInUp'>
           <a target='_blank' rel='noopener noreferrer' href={resume}>RESUME</a>
           <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/kjan95129/'>LINKEDIN</a>
