@@ -3,11 +3,11 @@
 Powered by zeit
 
 In order to host your files under root, you must have this in package.json:
-# `"homepage": "http://kjan95129.github.io/"`
+### `"homepage": "http://kjan95129.github.io/"`
 
 With this, when a CNAME is used, the files can be served from the ROOT directory of the CNAME.
 If homepage is not specified, or is something like this:
-# `"homepage": "http://kjan95129.github.io/portfolio"`
+### `"homepage": "http://kjan95129.github.io/portfolio"`
 
 All files under the CNAME will be served under http://kevinjan.me/portfolio
 By default, index.html will not care for the project name, so a 404 will be returned
