@@ -1,5 +1,7 @@
 ## PLEASE READ ME, OR YOU'RE GOING TO HAVE A BAD TIME DEPLOYING
 
+Powered by zeit
+
 In order to host your files under root, you must have this in package.json:
 # `"homepage": "http://kjan95129.github.io/"`
 
