@@ -1,12 +1,12 @@
 import React from 'react'
-import ProjectCard from 'components/ProjectCard'
-import grapeLogo from 'static/cards/grapelogo.png'
-import clickndigLogo from 'static/cards/clickndig.png'
-import brewngoLogo from 'static/cards/brewngo.png'
-import violetLogo from 'static/cards/violet.png'
-import teamwatchLogo from 'static/cards/teamwatch.png'
-import buildacatLogo from 'static/cards/buildacat.png'
-import wwgfbtLogo from 'static/cards/wwgfbt.png'
+import ProjectCard from '../components/ProjectCard'
+import grapeLogo from '../static/cards/grapelogo.png'
+import clickndigLogo from '../static/cards/clickndig.png'
+import brewngoLogo from '../static/cards/brewngo.png'
+import violetLogo from '../static/cards/violet.png'
+import teamwatchLogo from '../static/cards/teamwatch.png'
+import buildacatLogo from '../static/cards/buildacat.png'
+import wwgfbtLogo from '../static/cards/wwgfbt.png'
 
 const projects = [
   {

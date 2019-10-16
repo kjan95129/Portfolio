@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import BackButton from 'components/CaseStudy/BackButton'
-import CaseStudyHeader from 'components/CaseStudy/CaseStudyHeader'
+import BackButton from '../components/CaseStudy/BackButton'
+import CaseStudyHeader from '../components/CaseStudy/CaseStudyHeader'
 
 function Brewngo() {
   useEffect(() => {

@@ -1,9 +1,9 @@
 import React from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
-import Home from 'routes/Home'
-import Grape from 'routes/Grape'
-import Violet from 'routes/Violet'
-import Brewngo from 'routes/Brewngo'
+import Home from '../routes/Home'
+import Grape from '../routes/Grape'
+import Violet from '../routes/Violet'
+import Brewngo from '../routes/Brewngo'
 
 function App() {
   return (

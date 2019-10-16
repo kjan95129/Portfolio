@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from 'static/Kevin_Jan_Resume.pdf'
+import resume from '../static/Kevin_Jan_Resume.pdf'
 
 function Header() {
   return (
