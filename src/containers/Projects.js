@@ -67,6 +67,7 @@ function Projects() {
   const projectCards = projects.map(project => {
     return (
       <ProjectCard 
+        key={project.header}
         link={project.link}
         externalLink={project.externalLink}
         image={project.image}

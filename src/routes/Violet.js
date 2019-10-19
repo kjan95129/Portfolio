@@ -18,6 +18,9 @@ import landing_2 from '../static/violet/landing_2.png'
 import adresults_1 from '../static/violet/adresults_1.png'
 import adresults_2 from '../static/violet/adresults_2.png'
 import enactments_1 from '../static/violet/enactments_1.png'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-73963331-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function Violet() {
   useEffect(() => {

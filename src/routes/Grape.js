@@ -15,6 +15,9 @@ import prot_2_3 from '../static/grape/prot_2_3.jpg'
 import ab_1 from '../static/grape/ab_1.png'
 import ab_2 from '../static/grape/ab_2.png'
 import ab_3 from '../static/grape/ab_3.png'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-73963331-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function Grape() {
   useEffect(() => {

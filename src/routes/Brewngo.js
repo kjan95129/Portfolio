@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import BackButton from '../components/CaseStudy/BackButton'
 import CaseStudyHeader from '../components/CaseStudy/CaseStudyHeader'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-73963331-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function Brewngo() {
   useEffect(() => {
