@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 p {
@@ -77,6 +77,25 @@ hr {
   }
 }
 
+@media(max-width: 1024px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .intro-body {
+    text-align: center;
+  }
+}
+
 /************************************* HEADER STUFF *************************************/
 
 .light {
@@ -84,10 +103,11 @@ hr {
 }
 
 .intro {
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100vh;
-  padding-top: 15%;
   color: #000;
 }
 
@@ -180,7 +200,7 @@ div.topBottomBordersOut a:after {
   display: inline-block;
   position: relative;
   vertical-align: middle;
-  margin: 5px;
+  margin: .5%;
 }
 
 .media__container {
@@ -222,6 +242,9 @@ div.topBottomBordersOut a:after {
   border-radius: 2%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .media__body p {
@@ -283,19 +306,14 @@ div.topBottomBordersOut a:after {
   margin-top: 0;
 }
 
-@media(min-width:768px) {
-  .media__body h2 {
-    margin-top: 40px;
-  }
-}
-
 @media(max-width:768px) {
   .media__body {
     padding: 10vw 10vw;
   }
 
   .media__body p {
-    font-size: 4vw;
+    font-size: 16px;
+    margin-top: 16px;
   }
 }
 
@@ -308,7 +326,7 @@ div.topBottomBordersOut a:after {
   border-radius: 0;
   font-family: "Metrophobic", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  width: 150px;
+  min-width: 150px;
   -webkit-transition: all .1s ease-in-out;
   -moz-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;

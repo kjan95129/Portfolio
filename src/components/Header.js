@@ -17,7 +17,7 @@ function Header() {
           <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/kjan95129/'>LINKEDIN</a>
           <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/kjan95129'>GITHUB</a>
           <a target='_blank' rel='noopener noreferrer' href='https://medium.com/@kevinjan'>MEDIUM</a>
-          <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/smolasianboy/'>FITNESS</a>
+          <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/ImKevinJan'>TWITTER</a>
         </div>
       </div>
     </header>

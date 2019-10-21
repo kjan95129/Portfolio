@@ -1,14 +1,20 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import grapeLogo from '../static/cards/grapelogo.png'
-import clickndigLogo from '../static/cards/clickndig.png'
-import brewngoLogo from '../static/cards/brewngo.png'
 import violetLogo from '../static/cards/violet.png'
 import teamwatchLogo from '../static/cards/teamwatch.png'
 import buildacatLogo from '../static/cards/buildacat.png'
 import wwgfbtLogo from '../static/cards/wwgfbt.png'
+import daysofcode from  '../static/cards/100daysofcode.png'
 
 const projects = [
+  {
+    link: '100days',
+    externalLink: 'https://twitter.com/ImKevinJan',
+    image: daysofcode,
+    header: '100 days. 100 hours.',
+    description: 'Self-driven challenge to work on side projects & self-development for 100 days.'
+  },
   {
     link: 'wwgfbt',
     externalLink: 'https://wwgfbt.com/',
@@ -45,21 +51,6 @@ const projects = [
     header: 'do something nice today.',
     description: 'Mobile web application designed to encourage users to track personal acts of kindness',
     caseStudy: true,
-  },
-  {
-    link: 'brewngo',
-    externalLink: 'http://bruvida.com/',
-    image: brewngoLogo,
-    header: 'coffee & tea. on the go.',
-    description: 'Innovative product for an automatic and portable coffee & tea brewer',
-    caseStudy: true,
-  },
-  {
-    link: 'clickndig',
-    externalLink: 'https://clickndig-potato.herokuapp.com/',
-    image: clickndigLogo,
-    header: 'never lose your possessions.',
-    description: 'High fidelity e-commerce prototype for a popular item-finding product',
   },
 ]
 

@@ -182,9 +182,7 @@ function Grape() {
         <div className='content-block'>
           <h1>The Final Product</h1>
           <h3>A small video skit demonstrating our app!</h3>
-          <p>
-            <a target='_blank' rel='noopener noreferrer' className='btn btn-default btn-lg' href='http://grapeapp.herokuapp.com/'>Click here to check it out!</a>
-          </p>
+          <a target='_blank' rel='noopener noreferrer' className='btn btn-default btn-lg' href='http://grapeapp.herokuapp.com/'>Click here to check it out!</a>
           <br/>
         </div>
         <div className='image-pane no-background'>
