@@ -11,7 +11,12 @@ function Header() {
         </h1>
         <p className='animated fadeInUp'>Hi! Happy you're here. A little about me...
           <br/>
-          <br/> Currently a full stack developer @ Cisco Systems, working with ReactJS, JavaScript, and Python. </p>
+          <br/>
+          Currently a UI Developer @  on Music &amp; Podcasts, working with EmberJS &amp; JavaScript
+          <br />
+          <br />
+          Previously a Full Stack Engineer @ Cisco Systems, working with ReactJS, JavaScript, &amp; Python
+        </p>
         <div className='navigation topBottomBordersOut animated fadeInUp'>
           <a target='_blank' rel='noopener noreferrer' href={resume}>RESUME</a>
           <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/kjan95129/'>LINKEDIN</a>
