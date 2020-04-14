@@ -12,7 +12,7 @@ function Header() {
         <p className='animated fadeInUp'>Hi! Happy you're here. A little about me...
           <br/>
           <br/>
-          Currently a UI Developer @  on Music &amp; Podcasts, working with EmberJS &amp; JavaScript
+          Currently a UI Developer @ Apple on Music &amp; Podcasts, working with EmberJS &amp; JavaScript
           <br />
           <br />
           Previously a Full Stack Engineer @ Cisco Systems, working with ReactJS, JavaScript, &amp; Python
